@@ -1,22 +1,14 @@
 // @import '~bulma/sass/utilities/_all';
-@import '../node_modules/bulma/sass/utilities/_all.sass';
-// Import a Google Font
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+@import '../../node_modules/bulma/sass/utilities/_all.sass';
 
-// Set your brand colors
-// $purple: #8a4d76;
-// $pink: #fa7c91;
-// $brown: #757763;
-// $beige-light: #d0d1cd;
-// $beige-lighter: #eff0eb;
+// Import Bulma and Buefy style
+// @import '~bulma';
 
-// Update Bulma's global variables
-// $family-sans-serif: 'Nunito', sans-serif;
-// $grey-dark: $brown;
-// $grey-light: $beige-light;
-// $primary: $purple;
-// $primary-invert: findColorInvert($primary);
-// $link: $pink;
+// Set your colors
+$primary: #8a4d76;
+$primary-invert: findColorInvert($primary);
+$twitter: #4099ff;
+$twitter-invert: findColorInvert($twitter);
 
 // Setup $colors to use as bulma classes (e.g. 'is-twitter')
 $colors: (
@@ -37,7 +29,7 @@ $colors: (
     $dark-invert
   ),
   'primary': (
-    $primary: #8a4d76,
+    $primary,
     $primary-invert
   ),
   'info': (
@@ -62,14 +54,10 @@ $colors: (
   )
 );
 
-// Update some of Bulma's component variables
-$control-border-width: 2px;
-$input-background-color: $beige-lighter;
-$input-border-color: transparent;
-$input-shadow: none;
-
-// Import Bulma and Buefy style
-// @import '~bulma';
-@import '../node_modules/bulma';
+// Links
+$link: $primary;
+$link-invert: $primary-invert;
+$link-focus-border: $primary;
+@import '../../node_modules/bulma';
 // @import '~buefy/src/scss/buefy';
-@import '../node_modules/buefy/src/scss/buefy.scss';
+@import '../../node_modules/buefy/src/scss/buefy.scss';
