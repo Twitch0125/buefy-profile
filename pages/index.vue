@@ -14,7 +14,6 @@
             speed="1"
             loop
             autoplay
-            hover
           ></lottie-player>
         </template>
         <template slot="description">
@@ -37,7 +36,6 @@
             speed="1"
             loop
             autoplay
-            hover
           ></lottie-player>
         </template>
         <template slot="description">
@@ -58,7 +56,6 @@
             src="https://assets6.lottiefiles.com/packages/lf20_0bHF6f.json"
             background="#00DEAF"
             speed="1"
-            hover
             loop
             autoplay
           ></lottie-player>
@@ -88,10 +85,25 @@
       <div class="message-header">
         <p>But wait, there's more!</p>
       </div>
-      <div class="message-body">
+      <div class="message-body message-background-color">
         This site is still a work-in-progress, so it may have some "unintended features" still. I'll put more projects on as I have time, and when I complete more. Feel free to contact me here:
-        <a href="mailto:twitcherc@gmail.com" target="new">twitcherc@gmail.com</a> and
+        <a
+          href="mailto:twitcherc@gmail.com"
+          target="new"
+        >twitcherc@gmail.com</a> and
         <a href="https://www.linkedin.com/in/kaleb-e/" target="new">here</a>
+        <br />
+        <br />
+        <span class="is-family-monospace">
+          Just in case you were wondering... this site was made with the amazing
+          <a
+            href="https://bulma.io/"
+            target="new"
+          >Bulma</a> and
+          <a href="https://buefy.org/" target="new">Buefy</a> css frameworks. Created with
+          <a href="https://vuejs.org/" target="new">Vue.js</a> and
+          <a href="https://nuxtjs.org/" target="new">Nuxt.js</a>
+        </span>
       </div>
     </article>
   </section>
@@ -100,6 +112,9 @@
 .center-icon {
   width: 100%;
   height: 100%;
+}
+.message-background-color {
+  background-color: #e6fffa;
 }
 </style>
 
