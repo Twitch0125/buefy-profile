@@ -41,7 +41,7 @@
         <template slot="description">
           <span
             class="is-family-primary"
-          >Simple NodeJS simple user manager for PostgreSQL and MongoDB. Server Side Rendered. Templating with Pug (formerly Jade)</span>
+          >Simple NodeJS user manager for PostgreSQL and MongoDB. Server Side Rendered. Templating with Pug (formerly Jade)</span>
         </template>
       </card>
 
