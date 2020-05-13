@@ -24,7 +24,7 @@
       </card>
 
       <card
-        title="PostgreSQL/MongoDB User Manager"
+        title="PostgreSQL/MongoDB CRUD"
         icon="rocket"
         github="https://github.com/Twitch0125/user-manager-postgresql"
         host="https://enigmatic-forest-13135.herokuapp.com/"
