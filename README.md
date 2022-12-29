@@ -1,3 +1,6 @@
+# Dead Project
+My very first portfolio/personal website. Most of the projects here don't even work anymore.
+
 # buefy-portfolio
 
 > My scrumtrulescent Nuxt.js project
